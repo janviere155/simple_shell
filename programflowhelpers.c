@@ -143,19 +143,19 @@ int checkbuiltins(char **av, char *buffer, int exitstatus)
 
 /**
  *
- *  * _forkprocess - create child process to execute based on user input
- *
- *   * @av: pointer to array of user of strings
- *
- *    * @buffer: pointer to user string
- *
- *     * @fullpathbuffer: pointer to user input
- *
- *      *
- *
- *       * Return: 0 on success
- *
- *        */
+ * _forkprocess - create child process to execute based on user input
+
+ * @av: pointer to array of user of strings
+
+* @buffer: pointer to user string
+
+* @fullpathbuffer: pointer to user input
+
+
+
+* Return: 0 on success
+*
+*/
 
 int _forkprocess(char **av, char *buffer, char *fullpathbuffer)
 	{
